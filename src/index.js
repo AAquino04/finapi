@@ -120,6 +120,14 @@ app.get("/account", verifyIfAccountExistsByCPF, (request, response) => {
   return response.status(200).json(customer)
 })
 
+app.get("/balance", verifyIfAccountExistsByCPF, (request, response) => {
+  const { customer } = request
+
+  const balance = getBalance(customer.statement)
+
+  return response.json(balance)
+})
+
 app.put("/account", verifyIfAccountExistsByCPF, (request, response) => {
   const { name } = request.body
   const { customer } = request
