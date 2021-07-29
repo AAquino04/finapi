@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 - Execute o comando `yarn` para baixar as dependências do projeto
 - Execute o comando `yarn dev` para iniciar a aplicação
   
-A aplicação estará disponível em `http://http://localhost:3333`
+A aplicação estará disponível em `http://localhost:3333`
 
 ---
 
