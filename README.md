@@ -1,18 +1,12 @@
 <h1 align="center">FinAPI</h1>
 
----
-
 ## Projeto
 FinAPI é uma API desenvolvida para simular um sistema bancário simples.</p>
-
----
 
 ## Tecnologias
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
-
----
 
 ## Execução
 
@@ -21,8 +15,6 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 - Execute o comando `yarn dev` para iniciar a aplicação
   
 A aplicação estará disponível em `http://localhost:3333`
-
----
 
 ### Requisitos
 
@@ -36,7 +28,6 @@ A aplicação estará disponível em `http://localhost:3333`
 - [x] Deve ser possível buscar o extrato bancário do cliente por data
 - [x] Deve ser possível consultar o saldo (balance) da conta
 
----
 ### Regras de negócio
 
 - [x] Não deve ser possível cadastrar uma conta com CPF já existente
